@@ -31,6 +31,13 @@ text-transform: uppercase;
     text-transform: uppercase;
     color: #2e2f42;
 }
+.partlogo-studio:hover{
+    color: #404bbf;
+}
+.partlogo-studio:focus{
+    color: #404bbf;
+}
+
 
 
 /*  .header-menu-list  */
@@ -51,36 +58,25 @@ color: #2e2f42;
     color: #404bbf;
 }
 
-.contsct-mailto-link{
+.contacts{
+    font-style: normal;
+}
+
+.contsct-link{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.contsct-mailto-link:hover{
+.contsct-link:hover{
 color: #404bbf;
 }
 
-.contsct-mailto-link:focus{
+.contsct-link:focus{
 color: #404bbf;
 }
 
-.contact-tel-link{
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-}
-
-.contact-tel-link:hover{
-color: #404bbf;
-}
-
-.contact-tel-link:focus{
-color: #404bbf;
-}
 
 
 
@@ -90,18 +86,17 @@ color: #404bbf;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #fff;
-    
 }
 
 .section-hero{
 background: #2e2f42;
 }
 
-.button-title{
+.button{
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -109,11 +104,21 @@ background: #2e2f42;
     background: #2e2f42;
     color: #fff;
     cursor: pointer;
+    background-color: #4D5AE5
+}
+
+.botton:hover {
+    background-color: #404BBF;
+    cursor: pointer;
 
 }
 
-/* section-benefits */
+.botton:focus {
+    background-color: #404bbf;
+}
 
+
+/* section-benefits */
 
 .section-title{
     font-weight: 700;
@@ -143,6 +148,17 @@ background: #2e2f42;
 
 /* section-our_team */
 
+.section-team{
+    background-color: #F4F4FD;
+}
+
+.section-team-title{
+    line-height: 1.11
+}
+
+.team-list{
+    background-color: #FFFFFF;
+}
 
 .sections-list-title{
     font-weight: 500;
@@ -161,6 +177,13 @@ background: #2e2f42;
     text-align: center;
     color: #434455;
 }
+
+
+
+
+
+
+
 
 .footer{
     width: 1440px;
