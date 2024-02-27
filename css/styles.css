@@ -1,6 +1,5 @@
 body {
     font-family: "Roboto", sans-serif;
-    font-family: "Raleway", sans-serif;
     color: #434455;
     background-color: #fff;
     }
@@ -14,8 +13,7 @@ ul {
 }
 
 .header-logo{
-font-family: "Raleway",
-sans-serif;
+font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
 line-height: 1.17;
@@ -36,13 +34,6 @@ text-transform: uppercase;
 
 
 /*  .header-menu-list  */
-.header-navigation{
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 40px;
-}
 
 .header-menu-list{
 font-weight: 500;
@@ -77,10 +68,10 @@ color: #404bbf;
 
 .contact-tel-link{
 font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
 
 .contact-tel-link:hover{
@@ -108,8 +99,6 @@ color: #404bbf;
 
 .section-hero{
 background: #2e2f42;
-width: 1440px;
-height: 600px;
 }
 
 .button-title{
@@ -154,10 +143,6 @@ height: 600px;
 
 /* section-our_team */
 
-.team-list-icon{
-    width: 264px;
-    height: 260px;
-}
 
 .sections-list-title{
     font-weight: 500;
@@ -176,12 +161,6 @@ height: 600px;
     text-align: center;
     color: #434455;
 }
-
-.portfolio-list-icon{
-    width: 360px;
-    height: 300px;
-}
-
 
 .footer{
     width: 1440px;
