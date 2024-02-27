@@ -89,6 +89,7 @@ color: #404bbf;
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #fff;
+    text-align: center;
 }
 
 .section-hero{
@@ -109,8 +110,6 @@ background: #2e2f42;
 
 .botton:hover {
     background-color: #404BBF;
-    cursor: pointer;
-
 }
 
 .botton:focus {
@@ -130,7 +129,7 @@ background: #2e2f42;
     color: #2e2f42;
 }
 
-.btntfits-list-title{
+.benefits-list-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -138,7 +137,7 @@ background: #2e2f42;
     color: #2e2f42;
 }
 
-.btntfits-list-tekst{
+.benefits-list-tekst{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -152,8 +151,18 @@ background: #2e2f42;
     background-color: #F4F4FD;
 }
 
-.section-team-title{
-    line-height: 1.11
+.section-title{
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        text-align: center;
+        color: #2e2f42;
+}
+
+.team-list-item{
+    background-color: #FFFFFF;
 }
 
 .team-list{
