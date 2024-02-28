@@ -101,6 +101,7 @@ background: #2e2f42;
     background: #2e2f42;
     color: #fff;
     cursor: pointer;
+    background-color: #4D5AE5
 }
 
 .button:hover,
@@ -117,6 +118,8 @@ background: #2e2f42;
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .benefits-list-title{
